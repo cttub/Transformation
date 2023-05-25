@@ -84,10 +84,12 @@ class Services extends Component {
                             <h1>Hardscapes</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture d-lg-block d-none'>
-                                </div>
+                                 <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
@@ -96,10 +98,12 @@ class Services extends Component {
                             <h1>Outdoor Lighting</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture d-lg-block d-none'>
-                                </div>
+                                <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
@@ -107,10 +111,12 @@ class Services extends Component {
                             <h1>Property Maintenance</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture d-lg-block d-none'>
-                                </div>
+                                <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
@@ -118,10 +124,12 @@ class Services extends Component {
                             <h1>New Landscape Designs</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture d-lg-block d-none'>
-                                </div>
+                                <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
@@ -129,10 +137,12 @@ class Services extends Component {
                             <h1>Exterior Drainage</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture col-lg-6 d-lg-block d-none'>
-                                </div>
+                                <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
@@ -140,10 +150,12 @@ class Services extends Component {
                             <h1>Outdoor Living Spaces</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture d-lg-block d-none'>
-                                </div>
+                                 <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
@@ -152,10 +164,12 @@ class Services extends Component {
                             <h1>Retaining Walls and Patios</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <div className='pictureOne col-lg-5 col-md-12 col-sm-12'>
-                                </div>
-                                <div  className='picture col-lg-6 d-lg-block d-none'>
-                                </div>
+                                 <Fade right>
+                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    </div>
+                                </Fade>
+                                <Fade right><div  className='picture d-lg-block d-none'>
+                                </div></Fade>
                             </div>
                         </div>
 
