@@ -73,10 +73,14 @@ button:hover{
   color: #FCFAF4;
 }
 #logo{
-  width: 300px;
+  width: 170px;
   z-index: 10;
   position: absolute;
-  top: 20px;
+  top: 0px;
+  transition: ease-in-out .2s;
+}
+#logo:hover{
+  transform: scale(1.1);
 }
 @media only screen and (max-width: 1319px){
   h1{

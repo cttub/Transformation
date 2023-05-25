@@ -1,7 +1,110 @@
 #service-page{
-    height: 100vh;
     background: linear-gradient(0deg, rgba(50, 102, 55, 0.72), rgba(50, 102, 55, 0.72)), url('../../Assets/Service.png');
     background-size: cover;
     background-repeat: no-repeat;
      
+}
+#service-page > .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: rgba(22, 55, 26, 0.87);
+    border-bottom: 5px solid #FCFAF4;
+    margin-bottom: 100px;
+   
+}
+#service-page > .heading > div{
+    text-align: center;
+}
+#service-page > .heading > div > p{
+    border-top: solid white;
+    padding-top: 30px;
+}
+.service-list{
+    display: flex;
+    scroll-behavior: smooth;
+}
+.service-list::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+}
+  
+  .service-list::-webkit-scrollbar-track {
+    background-color: #326637; /* Color of the scrollbar track */
+  }
+  
+  .service-list::-webkit-scrollbar-thumb {
+    background-color: #16371A; /* Color of the scrollbar thumb */
+  }
+  
+  .service-list::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Color of the scrollbar thumb on hover */
+  }
+.service-item{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 70px;
+}
+.service-list > .nav > ul.sticky-element {
+    position: sticky;
+    top: 10px !important;
+    padding-top: 30px;
+  }
+.service-example{
+    display: flex;
+    justify-content: space-between;
+}
+.service-example > .picture,.service-example > .pictureOne{
+    background-color: white;
+    border: solid black;
+    height: 300px;
+}
+
+
+.service-list > .nav > ul {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    align-self: flex-start;
+    top: 10px;
+    border-left:solid white;
+    height: auto;
+    background: #326637;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+.service-list > .nav > ul > li{
+    margin-bottom: 20px;
+}
+.service-list > .nav > ul > li > a{
+    color: white;
+    text-transform: none;
+    transition: ease-in-out .2s;
+
+}
+.service-list > .nav > ul > li > a.active,
+.service-list > .nav > ul > li > a:hover,
+.service-list > .nav > ul > li > a:active {
+    color: #FA6733;
+}
+@media only screen and (min-width: 991px){
+    .service-example > .pictureOne{
+        width: 55%;
+    }
+    .service-example > .picture{
+        width: 42%;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .service-list{
+        display: block;
+    }
+    .service-list > .nav > ul {
+        display: none;
+    }
+
 }
