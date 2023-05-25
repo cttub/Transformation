@@ -11,7 +11,7 @@ class Landing extends Component {
                     <Fade><h1 className='white-txt'>Transformative Landscaping and Lawn Services</h1></Fade>
                     <button>Get a Quote</button>
                 </div>
-                <a href="tel:+4178444570" className='white-txt'>Call Us (417) 844-4570</a>
+                
 
             </div>
 

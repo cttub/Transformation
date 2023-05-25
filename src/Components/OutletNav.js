@@ -1,11 +1,13 @@
 import React from 'react';
 import { Outlet } from "react-router-dom";
-const Navigation = () => {
+import NavigationBar from './NavigationBar';
+const OutletNav = () => {
   return(
     <div id='nav'>
+      <NavigationBar/>
       <Outlet />
     </div>
   );
 };
 
-export default Navigation;
+export default OutletNav;

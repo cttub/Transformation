@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-
+import {Link} from 'react-router-dom';
 class Service extends Component {
   state = {};
 
@@ -16,11 +16,6 @@ class Service extends Component {
                                 <b>Beautiful Landscapes</b>
                             </h4>
                             </div>
-                            <p>
-                            We specialize in providing exceptional landscape design.
-                            Services include: Landscape Design, Patios, Outdoor Lighting,
-                            Property Maintenance, and more.
-                            </p>
                         </div>
                         </Fade>
                         <Fade duration={2000}>
@@ -30,11 +25,7 @@ class Service extends Component {
                                 <b>Amazing Greenery</b>
                             </h4>
                             </div>
-                            <p>
-                            Give your home a scenic view with our lawn specialization. We
-                            have services that involve: Lawn Maintenance, Garden
-                            Installation, Trimming Services, and more.
-                            </p>
+    
                         </div>
                         </Fade>
                         <Fade duration={3000}>
@@ -44,19 +35,20 @@ class Service extends Component {
                                 <b>Stunning Hardscapes</b>
                             </h4>
                             </div>
-                            <p>
-                            Let us install beautiful hardscapes to enhance your living
-                            space. Our services offer: Fountain Installation, Retaining
-                            Walls, Patios or Desk Installation, and more.
-                            </p>
+                            
                         </div>
                         </Fade>
                     </div>
                     <h2 className='amazing-service' style={{textAlign: "center", marginBottom: "30px"}}>We have amazing services to cater to bring you your dream paradise. Our services include: Lawn Maintenance, Retaining
                             Walls, Patios, Landscape Design, Desk Installation, and more.</h2>
                     <div className="button-container">
-                       
-                        <button>See our Services</button>
+                    <Link 
+                            onClick={() => {
+                                        document.querySelector("html").scrollTo(0,0);
+                                        }}
+                            to = "/Services"> <button>See our Services</button>
+                    </Link>
+                        
                     </div>
                     </div>
                 </div>
