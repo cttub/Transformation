@@ -10,7 +10,7 @@ class NavigationBar extends Component {
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
                                         }}
-                            to = "/OurWork"><a className='white-txt nav-txt'>Gallery</a>
+                            to = "/Gallery"><a className='white-txt nav-txt'>Gallery</a>
                 </Link>
 
                 <Link 

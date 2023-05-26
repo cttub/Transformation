@@ -131,6 +131,18 @@
     font-weight: bold;
     font-size: 30px !important;
 }
+.compare > div{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: ease-in-out .5s;
+}
+.comparision > .container{
+    position: relative;   
+    height: 90vh;
+    margin-right: 10px;
+}
 .compare{
     position: absolute;
     border: solid white;
@@ -140,8 +152,8 @@
 }
 .after.compare{
     z-index: 1;
-    top: 100px;
-    left: 150px;
+    bottom: 0;
+    right: 20px;
     background: url('../../Assets/after.png');
     background-position: center;
     background-size: cover;
@@ -150,12 +162,12 @@
 .after.compare > .after-txt{
     transition: ease-in-out .5s;
 }
-.after.compare > .before-txt{
+.after.compare > .before-txt, .compare > div > .after{
     display: none;
     transition: ease-in-out .5s;
 }
 .before.compare{
-    top: 40px;
+    top: 0;
     background: url('../../Assets/before.png');
     background-position: center;
     background-size: cover;
@@ -178,6 +190,10 @@
     background-position: center;
     background-size: cover;
 }
+.comparision > .container:hover .compare > div > .before {
+    display: none;
+}
+
 
 
 

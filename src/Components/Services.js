@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Styles/services.css';
 import logo from '../Assets/logo.png';
-import Fade from 'react-reveal';
+import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom';
 
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
@@ -107,11 +107,11 @@ class Services extends Component {
                             <h1>Hardscapes</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                 <Fade right>
+                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
@@ -121,11 +121,11 @@ class Services extends Component {
                             <h1>Outdoor Lighting</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <Fade right>
+                                <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
@@ -134,11 +134,11 @@ class Services extends Component {
                             <h1>Property Maintenance</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <Fade right>
+                                <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
@@ -147,11 +147,11 @@ class Services extends Component {
                             <h1>New Landscape Designs</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <Fade right>
+                                <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
@@ -160,11 +160,11 @@ class Services extends Component {
                             <h1>Exterior Drainage</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                <Fade right>
+                                <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
@@ -173,11 +173,11 @@ class Services extends Component {
                             <h1>Outdoor Living Spaces</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                 <Fade right>
+                                <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
@@ -187,11 +187,11 @@ class Services extends Component {
                             <h1>Retaining Walls and Patios</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
-                                 <Fade right>
+                                <Fade right duration={1000}>
                                     <div className='pictureOne'>
                                     </div>
                                 </Fade>
-                                <Fade right><div  className='picture d-lg-block d-none'>
+                                <Fade right delay={100}><div  className='picture d-lg-block d-none'>
                                 </div></Fade>
                             </div>
                         </div>
