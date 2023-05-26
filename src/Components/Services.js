@@ -108,7 +108,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                  <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>
@@ -122,7 +122,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                 <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>
@@ -135,7 +135,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                 <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>
@@ -148,7 +148,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                 <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>
@@ -161,7 +161,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                 <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>
@@ -174,7 +174,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                  <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>
@@ -188,7 +188,7 @@ class Services extends Component {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                             <div className='service-example'>
                                  <Fade right>
-                                    <div className='pictureOne col-md-12 col-sm-12'>
+                                    <div className='pictureOne'>
                                     </div>
                                 </Fade>
                                 <Fade right><div  className='picture d-lg-block d-none'>

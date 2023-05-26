@@ -6,6 +6,7 @@ import OutletNav from './Components/OutletNav';
 import Homepage from './Components/Homepage';
 import Services from './Components/Services';
 import OurWork from './Components/OurWork';
+import ContactUs from './Components/ContactUs';
 function App() {
   return (
     <HashRouter>
@@ -13,8 +14,8 @@ function App() {
         <Route path="/" element={<OutletNav/>}>
         <Route index element={<Homepage/>} />
         <Route path="Services" element={<Services/>} />
-        <Route path="OurWork" element={<OurWork/>} />
-
+        <Route path="Gallery" element={<OurWork/>} />
+        <Route path="ContactUs" element={<ContactUs/>} />
         
         
  

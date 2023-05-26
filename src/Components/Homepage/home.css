@@ -110,3 +110,107 @@
   
 }
 
+/*Breathtaking*/
+#breathtaking{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url('../../Assets/BackgroundGrass.png');
+    background-position: center;
+    background-size: cover;
+}
+#breathtaking > .inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.compare > p{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+.compare{
+    position: absolute;
+    border: solid white;
+    width: 450px;
+    height: 600px;
+    transition: ease-in-out .5s;
+}
+.after.compare{
+    z-index: 1;
+    top: 100px;
+    left: 150px;
+    background: url('../../Assets/after.png');
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out .5s;
+}
+.after.compare > .after-txt{
+    transition: ease-in-out .5s;
+}
+.after.compare > .before-txt{
+    display: none;
+    transition: ease-in-out .5s;
+}
+.before.compare{
+    top: 40px;
+    background: url('../../Assets/before.png');
+    background-position: center;
+    background-size: cover;
+    transition: ease-in-out .5s;
+}
+
+.comparision > .container:hover .after.compare > .before-txt {
+    display: block;
+}
+.comparision > .container:hover .after.compare > .after-txt {
+    display: none;
+}
+.comparision > .container:hover .before.compare {
+    background: url('../../Assets/after.png');
+    background-position: center;
+    background-size: cover;
+}
+.comparision > .container:hover .after.compare {
+    background: url('../../Assets/before.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media only screen and (max-width: 1444px){
+    .compare{
+        position: absolute;
+        border: solid white;
+        width: 400px;
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 1326px){
+    .compare{
+        position: absolute;
+        border: solid white;
+        width: 320px;
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 1149px){
+    .compare{
+        position: absolute;
+        border: solid white;
+        width: 300px;
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 1073px){
+    .comparision{
+        display: none;
+    }
+    #breathtaking{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
