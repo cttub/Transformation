@@ -72,6 +72,9 @@ button:hover{
 .white-txt{
   color: #FCFAF4;
 }
+.green-txt{
+  color: #16371A;
+}
 #logo{
   width: 170px;
   z-index: 10;
@@ -138,3 +141,13 @@ button:hover{
   text-decoration: none !important;
   text-transform: none !important;
 }
+
+/*Video*/
+#video{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

@@ -38,6 +38,10 @@
     height: 300px;
     width: 97%;
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+    transition: ease-in-out .2s;
+}
+.image-box:hover{
+    transform: scale(1.04);
 }
 .image-box.landscape{
     background: linear-gradient(0deg, rgba(22, 55, 26, 0.62), rgba(22, 55, 26, 0.62)), url('../../Assets/landscape.png');
@@ -230,3 +234,60 @@
         padding-right: 20px;
     }
 }
+/*Reviews*/
+#reviews{
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/review.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Review Card*/
+  #reviewCard{
+    margin-left: 30px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 22px;
+    width: 800px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #reviewCard > div >  .heading{
+    display: flex;
+    align-items: center;
+  }
+  #reviewCard > div > .heading > img{
+    margin-right: 10px;
+    width: 70px;
+    border-radius: 50%;
+  }
+  #reviewCard > div > p{
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 80%;
+  }
+
+  .review-batch{
+    display: flex;
+    
+  }
+  .review-batch::-webkit-scrollbar {
+    width: 0.5em; /* Set the width of the scrollbar */
+  }
+  
+  .review-batch::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3); /* Set the color of the scrollbar thumb */
+    border-radius: 10px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  .review-batch::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Set the color of the scrollbar thumb on hover */
+  }
+  
+  .review-batch::-webkit-scrollbar-track {
+    background-color: transparent; /* Set the background color of the scrollbar track */
+  }
