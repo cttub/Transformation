@@ -6,14 +6,36 @@ import {Link} from 'react-router-dom';
 
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 class Services extends Component {
-
+    state = {
+        sticky: true,
+    };
     state = {  } 
+    handleScroll = () => {
+        const questionsSection = document.getElementById('questions');
+        const questionsSectionTop = questionsSection.offsetTop;
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+        if (scrollTop >= questionsSectionTop) {
+          this.setState({ sticky: false });
+        } else {
+          this.setState({ sticky: true });
+        }
+      };
+    
+      componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+    
     render() { 
-        const { activeId } = this.state;
+        const { activeId, sticky } = this.state;
         return (
             <div id='service-page'>
 
-                 <Link 
+                <Link 
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
                                         }}
@@ -32,7 +54,8 @@ class Services extends Component {
 
                 <div className='service-list white-txt'>
                     <div className='nav col-lg-3'>
-                        <ul className='sticky-element' style={{listStyle: "none"}}>
+
+                    <ul className={`sticky-element ${sticky ? 'sticky' : ''}`} style={{ listStyle: 'none' }}>
                             <li>
                                 <ScrollLink to="hardscapes" smooth={true} duration={500} spy={true}
                                  active={activeId === "hardscapes"}>
@@ -177,6 +200,16 @@ class Services extends Component {
 
                     </div>
 
+                </div>
+                <div id='questions' className='white-txt'>
+                    <h1>Have any questions?</h1>
+                    <p>We would love to answer any questions you may have.</p>
+                    <Link className='link-btn'
+                            onClick={() => {
+                                        document.querySelector("html").scrollTo(0,0);
+                                        }}
+                            to = "/ContactUs"><button>Contact Us</button>
+                    </Link>
                 </div>
               
                 
