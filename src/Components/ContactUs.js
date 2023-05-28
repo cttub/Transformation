@@ -5,7 +5,7 @@ class ContactUs extends Component {
     render() { 
         return (
             <div className='contact'>
-
+               
             </div>
 
         );

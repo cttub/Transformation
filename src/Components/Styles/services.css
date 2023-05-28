@@ -1,8 +1,7 @@
 #service-page{
     background: linear-gradient(0deg, rgba(50, 102, 55, 0.72), rgba(50, 102, 55, 0.72)), url('../../Assets/Service.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
-     
+    background-repeat: no-repeat;   
 }
 #service-page > .heading{
     display: flex;
@@ -10,19 +9,17 @@
     align-items: center;
     padding: 100px;
     padding-top: 150px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
     background: rgba(22, 55, 26, 0.87);
     border-bottom: 5px solid #FCFAF4;
     margin-bottom: 100px;
    
 }
-#service-page > .heading > div{
-    text-align: center;
-}
+
 #service-page > .heading > div > p{
     border-top: solid white;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .service-list{
     display: flex;
@@ -93,7 +90,7 @@
     .service-example > .pictureOne{
         width: 99%;
     }
-    #service-page > .heading{
+    #service-page > .heading, #gallery > .heading{
         padding-left: 20px;
         padding-right: 20px;
        

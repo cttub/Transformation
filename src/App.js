@@ -5,7 +5,7 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 import OutletNav from './Components/OutletNav';
 import Homepage from './Components/Homepage';
 import Services from './Components/Services';
-import OurWork from './Components/OurWork';
+import Gallery from './Components/Gallery';
 import ContactUs from './Components/ContactUs';
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<OutletNav/>}>
         <Route index element={<Homepage/>} />
         <Route path="Services" element={<Services/>} />
-        <Route path="Gallery" element={<OurWork/>} />
+        <Route path="Gallery" element={<Gallery/>} />
         <Route path="ContactUs" element={<ContactUs/>} />
         
         
