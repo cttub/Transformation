@@ -39,28 +39,58 @@
     height: 400px;
 
 }
+
 .gal-img.full{
     width: 100%;
 }
 .gal-img.full.first{
-    background-color: grey;
+    background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url('../../Assets/Gallery/patio-before.png');
+    background-position: center;
+    background-size: cover;
     transition: ease-in-out .4s;
 }
 .gal-img.full.first:hover{
-    background-color: blue;
+    background:url('../../Assets/Gallery/patio-after.png');
+    background-position: center;
+    background-size: cover;
 }
 .gal-img.full.second{
-    background-color: grey;
+    background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url('../../Assets/Gallery/brick-house-before.png');
+    background-position: center;
+    background-size: cover;
     transition: ease-in-out .4s;
 }
 .gal-img.full.second:hover{
-    background-color: blue;
+    background: url('../../Assets/Gallery/brick-house-after.png');
+    background-position: center;
+    background-size: cover;
 }
 .gal-img.full.first:hover p, .gal-img.full.second:hover p {
     display: none;
 }
   
+.gal-img.firstTop{
+    background: url('../../Assets/Gallery/white-house-before.png');
+    background-position: center;
+    background-size: cover;
 
+}
+.gal-img.secondTop{
+    background: url('../../Assets/Gallery/white-house-after.png');
+    background-position: center;
+    background-size: cover;
+}
+.gal-img.firstBottom{
+    background: url('../../Assets/Gallery/grassy-before.png');
+    background-position: center;
+    background-size: cover;
+
+}
+.gal-img.secondBottom{
+    background: url('../../Assets/Gallery/grassy-after.png');
+    background-position: center;
+    background-size: cover;
+}
 .img-container.block{
     display: flex;
     justify-content: center;

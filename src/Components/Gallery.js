@@ -46,14 +46,14 @@ class Gallery extends Component {
             <div className='container-over'>
                 <div className='img-container block over'>
                     <div className='blockOne block'>
-                       <Fade left duration ={1500}><div className='gal-img before'>
+                       <Fade left duration ={1500}><div className='gal-img before firstTop'>
                             <p className='white-txt' style={{marginLeft:"10px",marginTop:"10px"}}><b>Before</b></p>
                         </div></Fade> 
                         <div className='txt'></div>
                     </div>
                     <div className='blockTwo block'>
                         <div className='txt text-hide'><p className='white-txt'  style={{marginRight: "50px"}}><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p></div>
-                        <Fade right duration ={1500}><div className='gal-img after'>
+                        <Fade right duration ={1500}><div className='gal-img after secondTop'>
                             <p className='white-txt' style={{marginLeft:"10px",marginTop:"10px"}}><b>After</b></p>
                         </div></Fade>
                     </div>
@@ -64,14 +64,14 @@ class Gallery extends Component {
             <div className='container-over'>
                 <div className='img-container block over'>
                     <div className='blockOne block'>
-                       <Fade left duration ={1500}><div className='gal-img before'>
+                       <Fade left duration ={1500}><div className='gal-img before firstBottom'>
                             <p className='white-txt' style={{marginLeft:"10px",marginTop:"10px"}}><b>Before</b></p>
                         </div></Fade> 
                         <div className='txt text-hide'><p className='white-txt' style={{marginRight: "50px"}}><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p></div>
                     </div>
                     <div className='blockTwo block'>
                         <div className='txt'></div>
-                        <Fade right duration ={1500}><div className='gal-img after'>
+                        <Fade right duration ={1500}><div className='gal-img after secondBottom'>
                             <p className='white-txt' style={{marginLeft:"10px",marginTop:"10px"}}><b>After</b></p>
                         </div></Fade>
                     </div>
