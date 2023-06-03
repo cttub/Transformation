@@ -9,24 +9,24 @@ import Becky from '../../Assets/Review/Becky.jpg';
 import Pam from '../../Assets/Review/Pam.jpg';
 import Flicking from "@egjs/react-flicking";
 import "@egjs/react-flicking/dist/flicking.css";
-import { AutoPlay, Perspective } from "@egjs/flicking-plugins";
+import {Perspective } from "@egjs/flicking-plugins";
+import Fade from 'react-reveal/Fade';
 
 class Reviews extends Component {
   state = {};
 
   render() {
     const plugins = [
-      new AutoPlay({ duration: 1700, direction: "NEXT", stopOnHover: true }),
       new Perspective({ rotate: 0.6 }),
     ];
 
     return (
       <div id='reviews'>
         <div>
-          <h1 style={{ textAlign: "center" }} className='white-txt'>Don't Just Take Our Word</h1>
+          <Fade up><h1 style={{ textAlign: "center" }} className='white-txt'>Don't Just Take Our Word</h1></Fade>
 
-   
-            <Flicking 
+  
+           <Flicking 
               circular={true}
               plugins={plugins}
               align="center"

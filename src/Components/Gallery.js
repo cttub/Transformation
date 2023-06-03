@@ -27,17 +27,17 @@ class Gallery extends Component {
           </div>
         </Fade>
 
-        <div className='img-container flex hover'>
+       <div className='img-container flex hover'>
           <div className='img-with-desc img-block'>
-            <div className='gal-img full first'>
+            <Fade up duration = {1300}><div className='gal-img full first'>
               <p className='white-txt'><b>Hover To See After</b></p>
-            </div>
+            </div></Fade>
             <p className='white-txt'><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
           </div>
           <div className='img-with-desc hide-img-gal second'>
-            <div className='gal-img full second'>
+            <Fade up duration = {1300}><div className='gal-img full second'>
               <p className='white-txt'><b>Hover To See After</b></p>
-            </div>
+            </div></Fade>
             <p className='white-txt'><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
           </div>
         </div>
@@ -117,6 +117,39 @@ class Gallery extends Component {
           </Fade>
         </div>
         <p className='txt side col-lg-4 white-txt'><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b></p>
+
+        <div className='regular first' style={{marginTop: "200px"}}>
+          <div>
+            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+              <p className='white-txt'><b>Before</b></p>
+              <div className='before img'></div>
+            </div>
+            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+              <p  className='white-txt'><b>After</b></p>
+              <div className='after img'></div>
+            </div>
+         </div>
+        </div>
+        <p className='white-txt' style={{textAlign: "center", marginTop: "10px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+       
+       
+        <div className='regular second' style={{marginTop: "200px"}}>
+          <div>
+            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+              <p className='white-txt'><b>Before</b></p>
+              <div className='before img'></div>
+            </div>
+            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+              <p  className='white-txt'><b>After</b></p>
+              <div className='after img'></div>
+            </div>
+          </div>
+        </div>
+        <p className='white-txt' style={{textAlign: "center", marginTop: "10px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+
+
+
 
         <div id='facebookLink' className='white-txt'>
           <h1>See more of our work!</h1>

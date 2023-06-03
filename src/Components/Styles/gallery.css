@@ -162,6 +162,17 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.regular > div{
+    display: flex;
+    justify-content: space-around;
+}
+.regular > div > .container-img > .img{
+    margin-top: -10px;
+    height: 300px;
+    border: solid white;
+}
+
 #facebookLink{
     margin-top: 140px;
     text-align: center;
@@ -235,6 +246,14 @@
         translate: 15px;
         float: right;
     }
+    .regular > div{
+        width: 90%;
+        display: block;  
+    }
+    .regular{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 @media only screen and (max-width: 700px){
@@ -252,6 +271,7 @@
         margin-bottom: 10px;
     }
 }
+
 @media only screen and (max-width: 400px){
     #gallery > .heading{
         padding-left: 20px;
