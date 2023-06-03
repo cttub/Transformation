@@ -3,6 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;   
     padding-bottom: 300px;
+    overflow-x: hidden;
 }
 
 #gallery > .heading{
@@ -118,6 +119,67 @@
 .text-show{
     display: none;
 }
+.side-by-side{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.side-by-side > .txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.side.before{
+    translate: -50px;
+    transition: ease-in-out .2s;
+}
+.side.after{
+    translate: 50px;
+    transition: ease-in-out .2s;
+}
+.side.before:hover, .side.after:hover{
+    translate: 0px;
+}
+.side.before > p{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.side.after > p{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+}
+
+.img-container.side{
+    border: solid  white;
+    height: 300px;
+}
+.side.txt{
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+#facebookLink{
+    margin-top: 140px;
+    text-align: center;
+}
+@media only screen and (max-width: 1069px){
+    .blockTwo > .txt > p{
+        flex-wrap: nowrap;
+        width: 450px;
+    }
+}
+@media only screen and (max-width: 991px){
+   .side-by-side > .txt.one{
+        display: none;
+   }
+   .side.txt{
+    display: block;
+   }
+}
 @media only screen and (max-width: 936px){
     .img-container.block > .block > .txt{
         display: none;
@@ -156,6 +218,25 @@
         padding: 10px;
     }
 }
+@media only screen and (max-width: 767px){
+    .side-by-side{
+        display: block;
+    }
+    .img-container.side {
+        width: 90%;
+    }
+    .side.before{
+        translate: -15px;
+
+    }
+    .side.after{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        translate: 15px;
+        float: right;
+    }
+
+}
 @media only screen and (max-width: 700px){
     .img-container.block{
         display: block;
@@ -175,5 +256,15 @@
     #gallery > .heading{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .img-container.side {
+        width: 100%;
+    }
+    .side.before{
+        translate: 0px;
+
+    }
+    .side.after{
+        translate: 0px;
     }
 }
