@@ -236,6 +236,7 @@
 }
 /*Reviews*/
 #reviews{
+    overflow-x: hidden;
     height: 100vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/review.png');
     background-position: center;
@@ -246,7 +247,6 @@
   }
   /*Review Card*/
   #reviewCard{
-    margin-left: 30px;
     background-color: white;
     padding: 50px;
     border-radius: 22px;
@@ -270,24 +270,44 @@
     overflow-y: auto;
     height: 80%;
   }
+    #reviews > div > h1{
+        width: 20%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
 
-  .review-batch{
-    display: flex;
+@media only screen and (max-width: 778px) {
+    #reviews{
+        height: auto;
+        padding-top: 100px;
+    }
+    #reviewCard{
+        width: 500px;
+        height: 90%;
+    }
+    #reviewCard > div >  .heading{
+        text-align: center;
+        display: block;
+        align-items: center;
+      }
     
-  }
-  .review-batch::-webkit-scrollbar {
-    width: 0.5em; /* Set the width of the scrollbar */
-  }
-  
-  .review-batch::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3); /* Set the color of the scrollbar thumb */
-    border-radius: 10px; /* Set the border radius of the scrollbar thumb */
-  }
-  
-  .review-batch::-webkit-scrollbar-thumb:hover {
-    background-color: rgba(0, 0, 0, 0.5); /* Set the color of the scrollbar thumb on hover */
-  }
-  
-  .review-batch::-webkit-scrollbar-track {
-    background-color: transparent; /* Set the background color of the scrollbar track */
-  }
+}
+@media only screen and (max-width: 537px){
+    #reviews > div > h1{
+        width: 15%;
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 499px) {
+    #reviewCard{
+        width: 400px;
+        height: 90%;
+    }
+}
+@media only screen and (max-width: 412px) {
+    #reviewCard{
+        width: 300px;
+        height: 90%;
+    }
+}

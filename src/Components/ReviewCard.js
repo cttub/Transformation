@@ -1,6 +1,5 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
-import {Link} from 'react-router-dom';
+
 
 class ReviewCard extends React.Component {
     state = {  
@@ -10,7 +9,6 @@ class ReviewCard extends React.Component {
         return (
             
             <div id = "reviewCard">
-
                 <div>
                     <div className='heading'>
                         <img src ={this.props.icon}/>

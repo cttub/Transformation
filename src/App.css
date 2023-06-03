@@ -151,3 +151,9 @@ button:hover{
   align-items: center;
 }
 
+.panel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
