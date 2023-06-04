@@ -1,6 +1,7 @@
 #gallery{
-    background: linear-gradient(0deg, rgba(72, 121, 77, 0.86), rgba(72, 121, 77, 0.86)), url('../../Assets/Gallery.jpg');
+    background: linear-gradient(0deg, rgba(72, 121, 77, 0.86), rgba(72, 121, 77, 0.86));
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;   
     padding-bottom: 300px;
     overflow-x: hidden;
@@ -45,24 +46,24 @@
     width: 100%;
 }
 .gal-img.full.first{
-    background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url('../../Assets/Gallery/patio-before.png');
+    background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url("../../Assets/Gallery/hover-first-before.jpg");
     background-position: center;
     background-size: cover;
     transition: ease-in-out .4s;
 }
 .gal-img.full.first:hover{
-    background:url('../../Assets/Gallery/patio-after.png');
+    background: url("../../Assets/Gallery/hover-first-after.jpg");
     background-position: center;
     background-size: cover;
 }
 .gal-img.full.second{
-    background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url('../../Assets/Gallery/brick-house-before.png');
+    background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url("../../Assets/Gallery/hover-second-before.jpg");
     background-position: center;
     background-size: cover;
     transition: ease-in-out .4s;
 }
 .gal-img.full.second:hover{
-    background: url('../../Assets/Gallery/brick-house-after.png');
+    background: url("../../Assets/Gallery/hover-second-after.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -71,24 +72,24 @@
 }
   
 .gal-img.firstTop{
-    background: url('../../Assets/Gallery/white-house-before.png');
+    background: url("../../Assets/Gallery/over-first-before.jpg");
     background-position: center;
     background-size: cover;
 
 }
 .gal-img.secondTop{
-    background: url('../../Assets/Gallery/white-house-after.png');
+    background: url("../../Assets/Gallery/over-first-after.jpg");
     background-position: center;
     background-size: cover;
 }
 .gal-img.firstBottom{
-    background: url('../../Assets/Gallery/grassy-before.png');
+    background:url("../../Assets/Gallery/over-second-before.jpg");
     background-position: center;
     background-size: cover;
 
 }
 .gal-img.secondBottom{
-    background: url('../../Assets/Gallery/grassy-after.png');
+    background: url("../../Assets/Gallery/over-second-after.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -123,6 +124,26 @@
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
+}
+.side-by-side.first > .img-container.before{
+    background: url("../../Assets/Gallery/side-first-before.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.side-by-side.first > .img-container.after{
+    background: url("../../Assets/Gallery/side-first-after.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.side-by-side.second > .img-container.before{
+    background: url("../../Assets/Gallery/side-second-before.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.side-by-side.second > .img-container.after{
+    background: url("../../Assets/Gallery/side-second-after.jpg");
+    background-position: center;
+    background-size: cover;
 }
 .side-by-side > .txt{
     display: flex;
@@ -172,7 +193,26 @@
     height: 300px;
     border: solid white;
 }
-
+.regular.first > div > .container-img > .before{
+    background: url("../../Assets/Gallery/regular-first-before.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.regular.first > div > .container-img > .after{
+    background: url("../../Assets/Gallery/regular-first-after.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.regular.second > div > .container-img > .before{
+    background: url("../../Assets/Gallery/regular-second-before.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.regular.second > div > .container-img > .after{
+    background: url("../../Assets/Gallery/regular-second-after.jpg");
+    background-position: center;
+    background-size: cover;
+}
 #facebookLink{
     margin-top: 140px;
     text-align: center;

@@ -71,7 +71,7 @@ class Services extends Component {
                             <li>
                                 <ScrollLink to="property-maintenance" smooth={true} duration={500} spy={true}
                                  active={activeId === "property-maintenance"}>
-                                    Propery Maintenance
+                                    Property Maintenance
                                 </ScrollLink>
                             </li>
                             <li>
