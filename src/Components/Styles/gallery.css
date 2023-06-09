@@ -1,10 +1,10 @@
 #gallery{
-    background: linear-gradient(0deg, rgba(72, 121, 77, 0.86), rgba(72, 121, 77, 0.86));
+    background: linear-gradient(0deg, rgba(50, 102, 55, 0.72), rgba(50, 102, 55, 0.72)), url('../../Assets/Gallery.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
-    padding-bottom: 300px;
-    overflow-x: hidden;
+    background-attachment: fixed;
+    padding-bottom: 100px;
 }
 
 #gallery > .heading{

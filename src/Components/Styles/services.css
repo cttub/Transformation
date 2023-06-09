@@ -1,7 +1,9 @@
 #service-page{
     background: linear-gradient(0deg, rgba(50, 102, 55, 0.72), rgba(50, 102, 55, 0.72)), url('../../Assets/Service.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;   
+    background-attachment: fixed;
 }
 #service-page > .heading{
     display: flex;

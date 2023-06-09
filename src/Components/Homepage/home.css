@@ -1,12 +1,16 @@
+#homepage  #logo{
+    display: none;
+}
 #landing{
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 100px;
-    background: linear-gradient(90deg, rgba(22, 55, 26, 0.67) 50.52%, rgba(50, 102, 55, 0.3149) 90.1%), url('../../Assets/Landing.png');
+    background: linear-gradient(90deg, rgba(22, 55, 26, 0.67) 50.52%, rgba(50, 102, 55, 0.3149) 90.1%), url('../../Assets/Landing.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
    
 }
 #landing > a{
@@ -24,9 +28,16 @@
 /*Service Pitch*/
 #service-pitch{
     display: flex;
+    background:  linear-gradient(90deg, rgba(22, 55, 26, 0.7) 55.49%, rgba(50, 102, 55, 0.7) 100%), url('../../Assets/serviceBar.png');
+    border-top: solid white 6px;
+    border-bottom: solid white 6px;
+    background-position: center;
+    background-size: cover;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
     padding: 30px;
+    color: white;
 }
 
 .image-box{
@@ -122,6 +133,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url('../../Assets/BackgroundGrass.png');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 #breathtaking > .inner-container{
     display: flex;
@@ -238,8 +250,9 @@
 #reviews{
     overflow-x: hidden;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/review.png');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/review.jpg');
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -310,4 +323,79 @@
         width: 300px;
         height: 90%;
     }
+}
+/*Contact*/
+#contact{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/Contact.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+
+#ff-title-root{
+    font-family: 'Galano' !important;
+    color: white;
+}
+#ff-compose{
+    width: 100%;
+}
+#Publish1FAIpQLScoGtyqstfrODC3btcswGqqCChwt0ivCXwpKpM_9o4PXHyOlQ{
+    background: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+}
+#ff-id-1492036453{
+    width: 45%;
+    display: inline-block;
+    
+}
+#ff-id-1184986610{
+    width: 45%;
+    display: inline-block;
+    margin-left: 5%;
+}
+.ff-form .ff-secfields .ff-item label{
+    color: white !important;
+    font-weight: 450;
+    font-size: 20px
+}
+input{
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
+@media only screen and (max-width: 508px){
+    #ff-id-1492036453{
+        width: auto;
+        display: block;
+    }
+    #ff-id-1184986610{
+        width: auto;
+        display: block;
+        margin-left: 0%;
+    }
+    
+}
+#ff-id-1213382725 > label, #ff-id-880864503 > label{
+    font-family: 'Galano';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#ff-id-844590796 > label > div{
+    font-weight: bold;
+
+}
+#ff-id-1213382725, #ff-id-880864503{
+    border-bottom: solid white 2px;
+}
+#ff-submit-root > span{
+    text-transform: none;
+}
+#ff-desc-root > p{
+    color: white !important;
 }

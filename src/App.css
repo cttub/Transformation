@@ -13,7 +13,7 @@ body{
 h1{
   font-family: 'Galano';
 }
-p, button, a, h2, h3, h4 {
+p, button, a, h2, h3, h4, #ff-submit-root {
   font-family: 'Inter' !important;
 
 }
@@ -39,9 +39,9 @@ a{
   transition: ease-in-out .2s;
 }
 a:hover{
- color: #FA6733 !important;
+ color: #FA6733 !important;   
 }
-button{
+button, #ff-submit-root{
   font-size: 25px !important;
   color: #FCFAF4;
   padding: 10px;
@@ -54,7 +54,7 @@ button{
   padding-right: 40px;
   transition: ease-in-out .2s;
 }
-button:hover{
+button:hover, #ff-submit-root:hover{
   background-color: #FF5011;
 }
 .orange-bg{
@@ -157,3 +157,60 @@ button:hover{
   align-items: center;
 }
 
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.hamburger-nav{
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  position: absolute;
+  display: none;
+}
+.hamburger-nav > div{
+  background-color: #16371A;
+  width: 100vw;
+  border: solid #16371A;
+  height: 100vh;
+}
+.hamburger-btn{
+  border: 0px;
+  width: 30px;
+}
+.hamburger-icon {
+  z-index: 100;
+  border-radius: 10px;
+  font-size: 50px; /* Adjust the size as desired */
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hamburger-links > a{
+  margin-top: 100px;
+  margin-left: 15px;
+  display: block !important;
+  font-size: 100vw !important;
+}
+.x-btn{
+  position: absolute;
+  font-size: 40px !important;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media only screen and (max-width: 505px) {
+  .hamburger-nav{
+    display: block;
+  }
+  #logo{
+    display: none;
+  }
+  .non-hamburger{
+    display: none;
+  }
+  
+}

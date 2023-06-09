@@ -120,14 +120,14 @@ class Gallery extends Component {
 
         <div className='regular first' style={{marginTop: "200px"}}>
           <div>
-            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+          <Fade left duration = {1500}><div className='container-img before col-lg-5 col-md-5 col-sm-12'>
               <p className='white-txt'><b>Before</b></p>
               <div className='before img'></div>
-            </div>
-            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+            </div></Fade>
+            <Fade right duration = {1500}><div className='container-img before col-lg-5 col-md-5 col-sm-12'>
               <p  className='white-txt'><b>After</b></p>
               <div className='after img'></div>
-            </div>
+            </div></Fade>
          </div>
         </div>
         <p className='white-txt' style={{textAlign: "center", marginTop: "10px"}}><b>This is a description for the <u>normal first</u> image and it's contents that go along with it to describe the work involved.</b></p>
@@ -135,14 +135,14 @@ class Gallery extends Component {
        
         <div className='regular second' style={{marginTop: "200px"}}>
           <div>
-            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+            <Fade left duration = {1500}><div className='container-img before col-lg-5 col-md-5 col-sm-12'>
               <p className='white-txt'><b>Before</b></p>
               <div className='before img'></div>
-            </div>
-            <div className='container-img before col-lg-5 col-md-5 col-sm-12'>
+            </div></Fade>
+            <Fade right duration = {1500}><div className='container-img before col-lg-5 col-md-5 col-sm-12'>
               <p  className='white-txt'><b>After</b></p>
               <div className='after img'></div>
-            </div>
+            </div></Fade>
           </div>
         </div>
         <p className='white-txt' style={{textAlign: "center", marginTop: "10px"}}><b>This is a description for the <u>normal second</u> image and it's contents that go along with it to describe the work involved.</b></p>
