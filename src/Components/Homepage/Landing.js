@@ -15,7 +15,7 @@ class Landing extends Component {
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
                                         }}
-                            to = "/ContactUs"><button>Get a Quote</button>
+                            to = "/ContactUs"><button>Get Your Quote</button>
                     </Link>
                 </div>
                 

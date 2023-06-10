@@ -1,5 +1,5 @@
 #gallery{
-    background: linear-gradient(0deg, rgba(50, 102, 55, 0.72), rgba(50, 102, 55, 0.72)), url('../../Assets/Gallery.jpg');
+    background: linear-gradient(0deg, rgba(50, 102, 55, 1), rgba(50, 102, 55, .8)), url('../../Assets/Gallery.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   

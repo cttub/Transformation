@@ -105,7 +105,10 @@ class Services extends Component {
                     <div className='list'>
                         <div id='hardscapes' className='service-item'>
                             <h1>Hardscapes</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Enhance the beauty and functionality of your outdoor spaces with our <b>professional hardscaping services</b>. 
+                                Our skilled team combines expert craftsmanship with quality materials to create stunning features such as <b>walkways, 
+                                driveways, retaining walls, and patios</b>. Whether you're looking to add a touch of elegance or create a functional outdoor
+                                living area, our hardscaping solutions will <b>transform your property into a masterpiece</b>.</p>
                             <div className='service-example'>
                                  <Fade right duration={1000}>
                                     <div className='pictureOne'>
@@ -119,7 +122,11 @@ class Services extends Component {
 
                         <div  id='outdoor-lighting' className='service-item'>
                             <h1>Outdoor Lighting</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Illuminate your landscape and create an inviting ambiance with our <b>exceptional outdoor lighting services</b>. 
+                                Our team of experts will design and <b>install custom lighting solutions</b> that accentuate the beauty of your property, 
+                                <b>enhance security</b>, and <b>extend your outdoor living hours</b>. From <b>elegant pathway lighting</b> to <b>mesmerizing garden features</b>,
+                                 we use energy-efficient and durable lighting fixtures to create a captivating and safe environment for you to enjoy day 
+                                 and night.</p>
                             <div className='service-example'>
                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
@@ -132,7 +139,10 @@ class Services extends Component {
 
                         <div id='property-maintenance' className='service-item'>
                             <h1>Property Maintenance</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Ensure your property maintains its pristine appearance year-round with our <b>comprehensive property maintenance services</b>. 
+                            We offer <b>regular lawn care, trimming, pruning, fertilization, weed control, and seasonal cleanups</b> to keep your landscape 
+                            healthy and beautiful. Our skilled team is dedicated to providing meticulous attention to detail and maintaining the highest 
+                            standards of professionalism, so you can relax and enjoy a well-maintained property without any hassle.</p>
                             <div className='service-example'>
                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
@@ -145,7 +155,11 @@ class Services extends Component {
 
                         <div  id='landscape-design' className='service-item'>
                             <h1>New Landscape Designs</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Experience the transformation of your outdoor space with our <b>innovative new landscape design services</b>. 
+                                Our team of talented designers will work closely with you to create a <b>unique</b> and <b>personalized landscape </b> 
+                                that reflects your vision and preferences. From selecting the <b>perfect plants</b> and trees to incorporating elements 
+                                such as <b>water features and seating areas</b>, our designs will bring harmony and beauty to your property, turning it 
+                                into a breathtaking oasis.</p>
                             <div className='service-example'>
                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
@@ -158,7 +172,10 @@ class Services extends Component {
 
                         <div id='exterior-drainage' className='service-item'>
                             <h1>Exterior Drainage</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p><b>Protect your property</b> from water damage and ensure proper drainage with our reliable <b>exterior drainage solutions</b>. 
+                                Our experienced team will <b>assess your landscape, identify problem areas</b>, and implement <b>effective drainage systems</b> to 
+                                redirect water away from your property. By addressing issues such as poor soil drainage and grading, we can help <b>prevent 
+                                erosion, foundation problems</b>, and other costly water-related issues, keeping your landscape safe and dry.</p>
                             <div className='service-example'>
                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
@@ -171,7 +188,11 @@ class Services extends Component {
 
                         <div id='outdoor-living-spaces'  className='service-item'>
                             <h1>Outdoor Living Spaces</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Expand your living area and create a <b>seamless indoor-outdoor connection</b> with our exquisite 
+                            <b>outdoor living space designs</b>. Whether you desire a <b>cozy patio</b>, a <b>versatile deck</b>, or a <b>fully equipped outdoor kitchen</b>, 
+                                our team will bring your vision to life. We integrate functional elements with aesthetically pleasing designs, 
+                                using <b>high-quality materials</b> to ensure <b>durability</b> and <b>longevity</b>. Enjoy entertaining guests or relaxing in the open 
+                                air with our <b>exceptional outdoor living spaces</b>.</p>
                             <div className='service-example'>
                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
@@ -185,7 +206,11 @@ class Services extends Component {
 
                         <div id='retaining-walls'  className='service-item'>
                             <h1>Retaining Walls and Patios</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                            <p>Add structure, functionality, and visual appeal to your landscape with our expertly crafted <b>retaining walls and patios.</b> 
+                                Our skilled team will design and construct retaining walls that <b>prevent soil erosion</b>, create <b>multi-level garden areas</b>,
+                                 and <b>add dimension to your property</b>. We also specialize in <b>patio installations</b>, creating inviting spaces where you can 
+                                 entertain, relax, and enjoy the beauty of the outdoors. With a focus on quality craftsmanship and attention to detail, 
+                                 our retaining walls and patios are built to last.</p>
                             <div className='service-example'>
                                 <Fade right duration={1000}>
                                     <div className='pictureOne'>
