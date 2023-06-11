@@ -170,8 +170,8 @@ button:hover, #ff-submit-root:hover{
   position: absolute;
   display: none;
 }
-.hamburger-nav > div{
-  background-color: #16371A;
+.hamburger-nav > div{ 
+  background: rgba(22, 55, 26, 0.82);
   width: 100vw;
   border: solid #16371A;
   height: 100vh;

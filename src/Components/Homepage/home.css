@@ -26,6 +26,16 @@
 
 
 /*Service Pitch*/
+#mobileService{
+    display: none;
+    background:  linear-gradient(90deg, rgba(22, 55, 26, 0.7) 55.49%, rgba(50, 102, 55, 0.7) 100%), url('../../Assets/serviceBar.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 #service-pitch{
     display: flex;
     background:  linear-gradient(90deg, rgba(22, 55, 26, 0.7) 55.49%, rgba(50, 102, 55, 0.7) 100%), url('../../Assets/serviceBar.png');
@@ -111,7 +121,6 @@
         display: block;
     }
     .pitch-container > .boxes{
- 
         padding-bottom: 10px;
     }
   
@@ -119,6 +128,12 @@
 @media only screen and (max-width: 845px){
     #service-pitch{
         display: none;
+    }
+    #mobileService{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
     }
   
 }
@@ -314,6 +329,16 @@
     #reviewCard{
         width: 400px;
         height: 90%;
+    }
+    #reviews, #breathtaking, #landing, #contact, #mobileService{
+        background-attachment: scroll, local;
+    }
+    #reviews{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #contact{
+        padding-bottom: 100px;
     }
 }
 @media only screen and (max-width: 412px) {

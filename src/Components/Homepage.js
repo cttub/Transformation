@@ -7,6 +7,7 @@ import Video from './Homepage/Video';
 import Reviews from './Homepage/Reviews';
 import ContactUs from './ContactUs';
 import Footer from './Footer';
+import MobileService from './Homepage/MobileService';
 class Homepage extends Component {
     state = {  } 
     render() { 
@@ -14,6 +15,7 @@ class Homepage extends Component {
             <div id='homepage'>
                 <Landing/>
                 <Service/>
+                <MobileService/>
                 <Breath/>
                 <Reviews/>
                 <ContactUs/>

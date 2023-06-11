@@ -175,7 +175,7 @@
 .service-list > .nav > ul > li > a:active {
     color: #FA6733;
 }
-@media only screen and (max-width: 991px){
+@media  (max-width: 991px){
     .service-example > .pictureOne{
         width: 99%;
     }
@@ -185,7 +185,7 @@
        
     }
 }
-@media only screen and (min-width: 991px){
+@media  (min-width: 991px){
     .service-example > .pictureOne{
         width: 55%;
     }
@@ -194,7 +194,7 @@
     }
 
 }
-@media only screen and (max-width: 991px){
+@media  (max-width: 991px){
     .service-list{
         display: block;
     }
