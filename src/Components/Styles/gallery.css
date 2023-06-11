@@ -23,6 +23,9 @@
     display: flex;
     justify-content: space-around;
 }
+.click{
+    display: none;
+}
 
 .img-container.hover > .img-with-desc > .gal-img{
     display: flex;
@@ -312,6 +315,12 @@
 }
 
 @media only screen and (max-width: 400px){
+    .hovertxt{
+        display: none;
+    }
+    .click{
+        display: block;
+    }
     #gallery > div > .heading{
         padding-left: 20px;
         padding-right: 20px;

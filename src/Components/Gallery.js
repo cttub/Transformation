@@ -31,7 +31,8 @@ class Gallery extends Component {
        <div className='img-container flex hover'>
           <div className='img-with-desc img-block'>
             <Fade up duration = {1300}><div className='gal-img full first'>
-              <p className='white-txt'><b>Hover To See After</b></p>
+              <p className='white-txt hovertxt'><b>Hover To See After</b></p>
+              <p className='white-txt click'><b>Click To See After</b></p>
             </div></Fade>
             <p className='white-txt'><b>This is a description for the <u>hover first</u> image and it's contents that go along with it to describe the work involved.</b></p>
           </div>
