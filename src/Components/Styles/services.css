@@ -143,6 +143,9 @@
 
 }
 #retaining-walls > .service-example > .picture{
+    background: url("../../Assets/Services/retainingTwo.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
 .service-item > p > b{
