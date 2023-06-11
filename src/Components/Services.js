@@ -189,7 +189,7 @@ class Services extends Component {
                         <div id='outdoor-living-spaces'  className='service-item'>
                             <h1>Outdoor Living Spaces</h1>
                             <p>Expand your living area and create a <b>seamless indoor-outdoor connection</b> with our exquisite 
-                            <b>outdoor living space designs</b>. Whether you desire a <b>cozy patio</b>, a <b>versatile deck</b>, or a <b>fully equipped outdoor kitchen</b>, 
+                            <b> outdoor living space designs</b>. Whether you desire a <b>cozy patio</b>, a <b>versatile deck</b>, or a <b>fully equipped outdoor kitchen</b>, 
                                 our team will bring your vision to life. We integrate functional elements with aesthetically pleasing designs, 
                                 using <b>high-quality materials</b> to ensure <b>durability</b> and <b>longevity</b>. Enjoy entertaining guests or relaxing in the open 
                                 air with our <b>exceptional outdoor living spaces</b>.</p>

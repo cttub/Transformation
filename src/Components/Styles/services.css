@@ -59,10 +59,92 @@
 }
 .service-example > .picture,.service-example > .pictureOne{
     background-color: white;
-    border: solid black;
+    border: solid white;
     height: 300px;
 }
 
+#hardscapes > .service-example > .pictureOne{
+    background: url("../../Assets/Services/hardscapeOne.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#hardscapes > .service-example > .picture{
+    background: url("../../Assets/Services/hardscapeTwo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#outdoor-lighting > .service-example > .pictureOne{
+    background: url("../../Assets/Services/outdoorOne.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#outdoor-lighting > .service-example > .picture{
+    background: url("../../Assets/Services/outdoorTwo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#property-maintenance > .service-example > .pictureOne{
+    background: url("../../Assets/Services/propertyOne.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#property-maintenance > .service-example > .picture{
+    background: url("../../Assets/Services/propertyTwo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#landscape-design > .service-example > .pictureOne{
+    background: url("../../Assets/Services/designOne.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#landscape-design > .service-example > .picture{
+    background: url("../../Assets/Services/designTwo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#exterior-drainage > .service-example > .pictureOne{
+    background: url("../../Assets/Services/drainageOne.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#exterior-drainage > .service-example > .picture{
+    background: url("../../Assets/Services/drainageTwo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#outdoor-living-spaces > .service-example > .pictureOne{
+    background: url("../../Assets/Services/livingOne.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#outdoor-living-spaces > .service-example > .picture{
+    background: url("../../Assets/Services/livingTwo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#retaining-walls > .service-example > .pictureOne{
+    background: url("../../Assets/Services/retainingOne.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+#retaining-walls > .service-example > .picture{
+
+}
 .service-item > p > b{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
