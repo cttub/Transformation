@@ -6,6 +6,7 @@ import Breath from './Homepage/Breath';
 import Video from './Homepage/Video';
 import Reviews from './Homepage/Reviews';
 import ContactUs from './ContactUs';
+import Footer from './Footer';
 class Homepage extends Component {
     state = {  } 
     render() { 

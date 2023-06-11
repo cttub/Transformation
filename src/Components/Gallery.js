@@ -3,13 +3,14 @@ import logo from '../Assets/logo.png';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import './Styles/gallery.css';
-
+import Footer from './Footer';
 class Gallery extends Component {
   state = {};
 
   render() {
     return (
       <div id='gallery'>
+        <div>
         <Link onClick={() => {
           document.querySelector("html").scrollTo(0,0);
         }} to="/">
@@ -151,13 +152,15 @@ class Gallery extends Component {
 
 
 
-        <div id='facebookLink' className='white-txt'>
+        <div style={{marginBottom: "100px"}} id='facebookLink' className='white-txt'>
           <h1>See more of our work!</h1>
           <p>We post on Facebook on most of our clients' homes. Come check it out!</p>
           <a href='https://www.facebook.com/transformationlawnandlandscapellc' target='_blank' rel='noopener noreferrer'>
             <button>View More</button>
           </a>
         </div>
+        </div>
+        <Footer/>
       </div>
     );
   }

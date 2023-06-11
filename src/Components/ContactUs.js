@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../Assets/logo.png';
+import Footer from './Footer';
 class ContactUs extends Component {
     componentDidMount() {
         var script = document.createElement("script");
@@ -14,13 +15,16 @@ class ContactUs extends Component {
     render() {
         return (
             <div id='contact'>
+                <div>
                      <Link onClick={() => {
                     document.querySelector("html").scrollTo(0,0);
                     }} to="/">
                     <img id='logo' src={logo} alt='Logo' />
                     </Link>
                     <div id="ff-compose" className='col-lg-5'></div>
-               
+                </div>
+                <Footer/>
+                    
             </div>
         );
     }

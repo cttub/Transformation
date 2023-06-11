@@ -3,7 +3,7 @@ import './Styles/services.css';
 import logo from '../Assets/logo.png';
 import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom';
-
+import Footer from './Footer';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 class Services extends Component {
     state = {
@@ -34,7 +34,7 @@ class Services extends Component {
         const { activeId, sticky } = this.state;
         return (
             <div id='service-page'>
-
+               <div>
                 <Link 
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
@@ -236,7 +236,8 @@ class Services extends Component {
                             to = "/ContactUs"><button>Contact Us</button>
                     </Link>
                 </div>
-              
+                </div>
+                <Footer/>
                 
             </div>
 

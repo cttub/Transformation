@@ -29,12 +29,11 @@
 #service-pitch{
     display: flex;
     background:  linear-gradient(90deg, rgba(22, 55, 26, 0.7) 55.49%, rgba(50, 102, 55, 0.7) 100%), url('../../Assets/serviceBar.png');
-    border-top: solid white 6px;
-    border-bottom: solid white 6px;
     background-position: center;
     background-size: cover;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background-attachment: fixed;
     padding: 30px;
     color: white;
@@ -44,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid white 2px;
     margin: auto;
     margin-bottom: 10px;
     height: 300px;
@@ -78,10 +78,8 @@
     margin: auto;
     padding-bottom: 20px;
 }
-.pitch-container > .boxes > p{
-    margin: auto;
-    width: 90%;
-    height: 350px;
+.amazing-service{
+  margin: auto;
 }
 .button-container{
     display: flex;
@@ -329,9 +327,8 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/Contact.jpg');
     background-position: center;
     background-size: cover;
-    padding: 40px;
     padding-top: 100px;
-    display: flex;
+
     justify-content: center;
     background-attachment: fixed;
 }

@@ -5,7 +5,7 @@
     background-repeat: no-repeat;   
     background-attachment: fixed;
 }
-#service-page > .heading{
+#service-page > div > .heading{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@
    
 }
 
-#service-page > .heading > div > p{
+#service-page > div >  .heading > div > p{
     border-top: solid white;
     padding-top: 10px;
 }
@@ -94,7 +94,7 @@
     .service-example > .pictureOne{
         width: 99%;
     }
-    #service-page > .heading, #gallery > .heading{
+    #service-page > div >  .heading, #gallery > div > .heading{
         padding-left: 20px;
         padding-right: 20px;
        

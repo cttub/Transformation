@@ -10,10 +10,10 @@ body{
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-h1{
+h1, h5{
   font-family: 'Galano';
 }
-p, button, a, h2, h3, h4, #ff-submit-root {
+p, button, a, h2, h3, h4, #ff-submit-root, li {
   font-family: 'Inter' !important;
 
 }
@@ -29,7 +29,7 @@ h3{
 h4{
   font-size: 36px !important; 
 }
-p, a{
+p, a, li{
   font-size: 20px !important;
 }
 a{
@@ -96,7 +96,7 @@ button:hover, #ff-submit-root:hover{
     font-size: 30px !important;
  
   }
-  p, a{
+  p, a, li{
     font-size: 23px !important;
   }
 }
@@ -115,7 +115,7 @@ button:hover, #ff-submit-root:hover{
     padding: 10px;
  
   }
-  p, a{
+  p, a, li{
     font-size: 2vh !important;
   }
 }
@@ -213,4 +213,48 @@ button:hover, #ff-submit-root:hover{
     display: none;
   }
   
+}
+#footer{
+  display: flex;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #16371A;
+}
+#footer > div{
+  margin-right: 65px;
+}
+#terms, #privacy{
+  color: white;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url('./Assets/BackgroundGrass.png');
+  background-attachment: fixed;
+}
+#terms > .container, #privacy > .container{
+  margin: auto;
+  width: 90%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+#terms > div > ol > li, #privacy > div > ol > li{
+  margin-top: 15px;
+}
+@media only screen and (max-width: 880px){
+  #footer > .info{
+    display: none;
+  }
+  #footer > .docu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 544px){
+  #footer{
+    display: none;
+  }
+
+}
+
+ul > li{
+  margin-top: 10px;
 }

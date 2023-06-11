@@ -4,10 +4,9 @@
     background-position: center;
     background-repeat: no-repeat;   
     background-attachment: fixed;
-    padding-bottom: 100px;
 }
 
-#gallery > .heading{
+#gallery > div >  .heading{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,7 +234,7 @@
     .img-container.block > .block > .txt{
         display: none;
     }
-    #gallery > .heading{
+    #gallery > div >  .heading{
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -313,7 +312,7 @@
 }
 
 @media only screen and (max-width: 400px){
-    #gallery > .heading{
+    #gallery > div > .heading{
         padding-left: 20px;
         padding-right: 20px;
     }
