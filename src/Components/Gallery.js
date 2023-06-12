@@ -34,13 +34,14 @@ class Gallery extends Component {
               <p className='white-txt hovertxt'><b>Hover To See After</b></p>
               <p className='white-txt click'><b>Click To See After</b></p>
             </div></Fade>
-            <p className='white-txt'><b>This is a description for the <u>hover first</u> image and it's contents that go along with it to describe the work involved.</b></p>
+            <p className='white-txt'><b>
+Witness the transformative power of our hardscape design and services as we revitalize our client's pool area, imbuing it with a sleek and modern aesthetic.</b></p>
           </div>
           <div className='img-with-desc hide-img-gal second'>
             <Fade up duration = {1300}><div className='gal-img full second'>
               <p className='white-txt'><b>Hover To See After</b></p>
             </div></Fade>
-            <p className='white-txt'><b>This is a description for the <u>hover second</u> image and it's contents that go along with it to describe the work involved.</b></p>
+            <p className='white-txt'><b>Create a seamless and elegant walkway for our valued clients and their families, enhancing the accessibility and charm of their homes.</b></p>
           </div>
         </div>
 
@@ -56,7 +57,7 @@ class Gallery extends Component {
             </div>
             <div className='blockTwo block'>
               <div className='txt text-hide'>
-                <p className='white-txt' style={{ marginRight: "50px" }}><b>This is a description for the <u>over first</u> image and it's contents that go along with it to describe the work involved.</b></p>
+                <p className='white-txt' style={{ marginRight: "50px" }}><b>Elevate our client's outdoor experience by replacing their wooden deck with a stunning stone desk, offering them an unparalleled view of their house.</b></p>
               </div>
               <Fade right duration={1500}>
                 <div className='gal-img after secondTop'>
@@ -66,7 +67,7 @@ class Gallery extends Component {
             </div>
           </div>
         </div>
-        <div className='txt text-show'><p className='white-txt'><b>This is a description for the <u>over first</u> image and it's contents that go along with it to describe the work involved.</b></p></div>
+        <div className='txt text-show'><p className='white-txt'><b>Elevate our client's outdoor experience by replacing their wooden deck with a stunning stone desk, offering them an unparalleled view of their house.</b></p></div>
 
         <div className='container-over'>
           <div className='img-container block over'>
@@ -76,7 +77,7 @@ class Gallery extends Component {
                   <p className='white-txt' style={{ marginLeft: "10px", marginTop: "10px" }}><b>Before</b></p>
                 </div>
               </Fade>
-              <div className='txt text-hide'><p className='white-txt' style={{ marginRight: "50px" }}><b>This is a description for the <u>hover second</u> image and it's contents that go along with it to describe the work involved.</b></p></div>
+              <div className='txt text-hide'><p className='white-txt' style={{ marginRight: "50px" }}><b>Embrace the beauty of nature by adorning our client's expansive yard with carefully selected trees, providing a picturesque and serene atmosphere just beyond their doorstep.</b></p></div>
             </div>
             <div className='blockTwo block'>
               <div className='txt'></div>
@@ -88,7 +89,7 @@ class Gallery extends Component {
             </div>
           </div>
         </div>
-        <div className='txt text-show'><p className='white-txt'><b>This is a description for the <u>over second</u> image and it's contents that go along with it to describe the work involved.</b></p></div>
+        <div className='txt text-show'><p className='white-txt'><b>Embrace the beauty of nature by adorning our client's expansive yard with carefully selected trees, providing a picturesque and serene atmosphere just beyond their doorstep.</b></p></div>
 
         <div className='side-by-side first'>
           <Fade left duration={1500}>
@@ -96,14 +97,14 @@ class Gallery extends Component {
               <p className='white-txt'><b>Before</b></p>
             </div>
           </Fade>
-          <p className='txt one col-lg-4 white-txt'><b>This is a description for the <u>side by side first</u> image and it's contents that go along with it to describe the work involved.</b></p>
+          <p className='txt one col-lg-4 white-txt'><b>Restore safety and convenience to our client's home after a devastating storm by expertly removing fallen trees and debris, ensuring unobstructed access to their walkway and allowing them to navigate their property with peace of mind.</b></p>
           <Fade right duration={1500}>
             <div className='img-container side after col-lg-4 col-md-5'>
               <p className='white-txt'><b>After</b></p>
             </div>
           </Fade>
         </div>
-        <p className='txt side col-lg-4 white-txt'><b>This is a description for the <u>side by side first</u> image and it's contents that go along with it to describe the work involved.</b></p>
+        <p className='txt side col-lg-4 white-txt'><b>Restore safety and convenience to our client's home after a devastating storm by expertly removing fallen trees and debris, ensuring unobstructed access to their walkway and allowing them to navigate their property with peace of mind.</b></p>
 
         <div className='side-by-side second'>
           <Fade left duration={1500}>
@@ -111,14 +112,14 @@ class Gallery extends Component {
               <p className='white-txt'><b>Before</b></p>
             </div>
           </Fade>
-          <p className='txt one col-lg-4 white-txt'><b>This is a description for the <u>side by side seocnd</u> image and it's contents that go along with it to describe the work involved.</b></p>
+          <p className='txt one col-lg-4 white-txt'><b>Discover the exquisite craftsmanship of our modern white tile walkway, a stunning addition to our client's property that seamlessly integrates with its surroundings.</b></p>
           <Fade right duration={1500}>
             <div className='img-container side after col-lg-4 col-md-5'>
               <p className='white-txt'><b>After</b></p>
             </div>
           </Fade>
         </div>
-        <p className='txt side col-lg-4 white-txt'><b>This is a description for the <u>side by side second</u> image and it's contents that go along with it to describe the work involved.</b></p>
+        <p className='txt side col-lg-4 white-txt'><b>Discover the exquisite craftsmanship of our modern white tile walkway, a stunning addition to our client's property that seamlessly integrates with its surroundings.</b></p>
 
         <div className='regular first' style={{marginTop: "200px"}}>
           <div>
@@ -132,7 +133,7 @@ class Gallery extends Component {
             </div></Fade>
          </div>
         </div>
-        <p className='white-txt' style={{textAlign: "center", marginTop: "10px"}}><b>This is a description for the <u>normal first</u> image and it's contents that go along with it to describe the work involved.</b></p>
+        <p className='white-txt' style={{textAlign: "left", paddingTop: "20px", margin: "auto", width: "80%"}}><b>Revamp your backyard into a haven of natural beauty with our meticulously crafted natural stone walkway, designed to enchant and inspire.</b></p>
        
        
         <div className='regular second' style={{marginTop: "200px"}}>
@@ -147,7 +148,7 @@ class Gallery extends Component {
             </div></Fade>
           </div>
         </div>
-        <p className='white-txt' style={{textAlign: "center", marginTop: "10px"}}><b>This is a description for the <u>normal second</u> image and it's contents that go along with it to describe the work involved.</b></p>
+        <p className='white-txt' style={{textAlign: "left", paddingTop: "20px", margin: "auto", width: "80%"}}><b>Unveil the hidden potential of our client's front yard by expertly clearing away overgrown bushes, revealing a captivating view from their windows that showcases the true essence of their property.</b></p>
 
 
 
