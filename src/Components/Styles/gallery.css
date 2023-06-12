@@ -4,6 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;   
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 #gallery > div >  .heading{
@@ -43,7 +44,33 @@
     height: 400px;
 
 }
-
+.service-label{
+    position: absolute;
+    background-color: #FA6733;
+    color: white;
+    padding: 10px 35px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.service-label.hover{
+    border-right: solid white 2px;
+    border-bottom: solid white 2px;
+    top: 0;
+    left: 0;
+}
+.service-label.block{
+    right: 0;
+    bottom: 0;
+    border-left: solid white 2px;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+.service-label.side{
+    top: 0;
+    right: 0;
+    border-left: solid white 2px;
+    border-bottom: solid white 2px;
+}
 .gal-img.full{
     width: 100%;
 }
@@ -53,25 +80,38 @@
     background-size: cover;
     transition: ease-in-out .4s;
 }
-.gal-img.full.first:hover{
+.gal-img.full.first:hover, .gal-img.full.first:active{
     background: url("../../Assets/Gallery/hover-first-after.jpg");
     background-position: center;
     background-size: cover;
 }
+.gal-img.full.first:hover .service-label.hover{
+    display: block;
+}
+.gal-img.full.first:active .service-label.hover{
+    display: block;
+}
+
+
 .gal-img.full.second{
     background: linear-gradient(0deg, rgba(22, 55, 26, 0.67), rgba(22, 55, 26, 0.67)), url("../../Assets/Gallery/hover-second-before.jpg");
     background-position: center;
     background-size: cover;
     transition: ease-in-out .4s;
 }
-.gal-img.full.second:hover{
+.gal-img.full.second:hover, .gal-img.full.second:active{
     background: url("../../Assets/Gallery/hover-second-after.jpg");
     background-position: center;
     background-size: cover;
 }
-.gal-img.full.first:hover p, .gal-img.full.second:hover p {
+.gal-img.full.second:hover .service-label.hover, .gal-img.full.second:active .service-label.hover{
+    display: block;
+}
+
+.gal-img.full.first:hover p, .gal-img.full.second:hover p, .gal-img.full.first:active p, .gal-img.full.second:active p {
     display: none;
 }
+
   
 .gal-img.firstTop{
     background: url("../../Assets/Gallery/over-first-before.jpg");
@@ -161,19 +201,20 @@
     translate: 50px;
     transition: ease-in-out .2s;
 }
-.side.before:hover, .side.after:hover{
+.side.before:hover, .side.after:hover, .side.before:active, .side.after:active{
     translate: 0px;
 }
-.side.before > p{
+.side.before > .white-txt{
     position: absolute;
     bottom: 0;
     right: 10px;
 }
-.side.after > p{
+.side.after > .white-txt{
     position: absolute;
     bottom: 0;
     left: 10px;
 }
+
 
 .img-container.side{
     border: solid  white;
@@ -191,6 +232,7 @@
     justify-content: space-around;
 }
 .regular > div > .container-img > .img{
+    position: relative;
     margin-top: -10px;
     height: 300px;
     border: solid white;
@@ -312,15 +354,15 @@
         width: 97%;
         margin-bottom: 10px;
     }
-}
-
-@media only screen and (max-width: 400px){
     .hovertxt{
         display: none;
     }
     .click{
         display: block;
     }
+}
+
+@media only screen and (max-width: 400px){
     #gallery > div > .heading{
         padding-left: 20px;
         padding-right: 20px;

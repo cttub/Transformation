@@ -220,9 +220,10 @@ button:hover, #ff-submit-root:hover{
   padding-top: 50px;
   padding-bottom: 50px;
   background: #16371A;
+  justify-content: space-between;
 }
 #footer > div{
-  margin-right: 65px;
+ 
 }
 #terms, #privacy{
   color: white;
@@ -257,4 +258,11 @@ button:hover, #ff-submit-root:hover{
 
 ul > li{
   margin-top: 10px;
+}
+.facebook{
+  transition: ease-in-out .2s;
+}
+.facebook:hover{
+  transform: scale(1.1);
+
 }

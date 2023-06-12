@@ -140,7 +140,7 @@ class Services extends Component {
                         <div id='property-maintenance' className='service-item'>
                             <h1>Property Maintenance</h1>
                             <p>Ensure your property maintains its pristine appearance year-round with our <b>comprehensive property maintenance services</b>. 
-                            We offer <b>regular lawn care, trimming, pruning, fertilization, weed control, and seasonal cleanups</b> to keep your landscape 
+                            We offer <b>regular lawn care, trimming, pruning, weed control, and seasonal cleanups</b> to keep your landscape 
                             healthy and beautiful. Our skilled team is dedicated to providing meticulous attention to detail and maintaining the highest 
                             standards of professionalism, so you can relax and enjoy a well-maintained property without any hassle.</p>
                             <div className='service-example'>
