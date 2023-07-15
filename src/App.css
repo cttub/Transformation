@@ -164,17 +164,15 @@ button:hover, #ff-submit-root:hover{
   display: block;
 }
 .hamburger-nav{
-  width: 100vw;
-  height: 100vh;
   z-index: 9999;
-  position: absolute;
+  position: fixed;
   display: none;
 }
 .hamburger-nav > div{ 
   background: rgba(22, 55, 26, 0.82);
   width: 100vw;
   border: solid #16371A;
-  height: 100vh;
+  padding-bottom: 30px;
 }
 .hamburger-btn{
   border: 0px;
@@ -190,7 +188,7 @@ button:hover, #ff-submit-root:hover{
 }
 
 .hamburger-links > a{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 15px;
   display: block !important;
   font-size: 100vw !important;
