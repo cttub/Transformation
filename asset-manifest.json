@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.493c4715.css",
+    "main.css": "/static/css/main.5bac08fd.css",
     "main.js": "/static/js/main.cae69eb2.js",
     "static/js/787.3b8d738c.chunk.js": "/static/js/787.3b8d738c.chunk.js",
     "static/media/Contact.jpg": "/static/media/Contact.5fa25918f82f76a1d4c5.jpg",
@@ -26,7 +26,7 @@
     "static/media/side-second-after.jpg": "/static/media/side-second-after.92d37e0a8c4c75e22e18.jpg",
     "static/media/over-second-after.jpg": "/static/media/over-second-after.17869f6c0732ed974003.jpg",
     "static/media/review.jpg": "/static/media/review.23aaea8f2dfaac28d121.jpg",
-    "static/media/outdoorTwo.jpg": "/static/media/outdoorTwo.975753c6956435809c4f.jpg",
+    "static/media/outdoorOne.jpg": "/static/media/outdoorOne.975753c6956435809c4f.jpg",
     "static/media/Gallery.jpg": "/static/media/Gallery.5d05ed837ea4ddc88b39.jpg",
     "static/media/hardscapeTwo.jpg": "/static/media/hardscapeTwo.3e6a0cedafab5a250a8f.jpg",
     "static/media/retainingTwo.jpg": "/static/media/retainingTwo.19acd3ed376f5703cbd8.jpg",
@@ -49,7 +49,7 @@
     "static/media/regular-first-after.jpg": "/static/media/regular-first-after.f60b74c8b6444d38074d.jpg",
     "static/media/hover-first-after.jpg": "/static/media/hover-first-after.23b0d2c4a2e00396327e.jpg",
     "static/media/Wendy.jpg": "/static/media/Wendy.b4abf82c6fcbe664f47f.jpg",
-    "static/media/outdoorOne.jpg": "/static/media/outdoorOne.da89ad3b199e6d832b54.jpg",
+    "static/media/outdoorTwo.jpg": "/static/media/outdoorTwo.da89ad3b199e6d832b54.jpg",
     "static/media/hover-first-before.jpg": "/static/media/hover-first-before.9e88bc1301ffaabdc33a.jpg",
     "static/media/galanogrotesque-bold.otf": "/static/media/galanogrotesque-bold.17b6df6d5b01dac6ac26.otf",
     "static/media/Becky.jpg": "/static/media/Becky.c0101eaab3a8cbfdfe5f.jpg",
@@ -58,12 +58,12 @@
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.1a2f1e0ed02028b256293dd04b1c7edb.svg",
     "static/media/uparrow.svg": "/static/media/uparrow.b1c8f0db1875ae886541bc3c26e57027.svg",
-    "main.493c4715.css.map": "/static/css/main.493c4715.css.map",
+    "main.5bac08fd.css.map": "/static/css/main.5bac08fd.css.map",
     "main.cae69eb2.js.map": "/static/js/main.cae69eb2.js.map",
     "787.3b8d738c.chunk.js.map": "/static/js/787.3b8d738c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.493c4715.css",
+    "static/css/main.5bac08fd.css",
     "static/js/main.cae69eb2.js"
   ]
 }
