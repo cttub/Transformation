@@ -41,6 +41,10 @@ a{
 a:hover{
  color: #FA6733 !important;   
 }
+a:active{
+  color: #FA6733 !important; 
+  text-decoration: underline !important; 
+ }
 button, #ff-submit-root{
   font-size: 25px !important;
   color: #FCFAF4;
@@ -74,6 +78,9 @@ button:hover, #ff-submit-root:hover{
 }
 .green-txt{
   color: #16371A;
+}
+.logo{
+  float: left;
 }
 #logo{
   width: 170px;

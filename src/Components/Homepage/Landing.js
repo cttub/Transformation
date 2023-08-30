@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom';
+import logo from '../../Assets/logo.png';
 class Landing extends Component {
     state = {  } 
     render() { 
         return (
             <div id='landing'>
-
+             
                 <div className='col-lg-8'>
                     <h2 className='white-txt'>Our Caring Team delivers</h2>
                     <Fade><h1 className='white-txt'>Transformative Landscaping and Lawn Services</h1></Fade>

@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-
+import logo from '../Assets/logo.png';
 class NavigationBar extends Component {
     state = {  } 
     render() { 
         return (
             <div className='navigation'>
-                
+              
+            <div>
                 <Link 
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
@@ -29,7 +30,7 @@ class NavigationBar extends Component {
                                         }}
                             to = "/ContactUs"><button>Contact Us</button>
                 </Link>
-               
+                </div>
                  
             </div>
         );
