@@ -7,7 +7,7 @@ class NavigationBar extends Component {
         return (
             <div className='navigation'>
               
-            <div>
+      
                 <Link 
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
@@ -30,7 +30,7 @@ class NavigationBar extends Component {
                                         }}
                             to = "/ContactUs"><button>Contact Us</button>
                 </Link>
-                </div>
+            
                  
             </div>
         );
