@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import {Link} from 'react-router-dom';
 import logo from '../../Assets/logo.png';
+import divide from '../../Assets/divider.png';
 class Landing extends Component {
     state = {  } 
     render() { 
         return (
+            <div className='landing-bg'>
             <div id='landing'>
              
                 <div className='col-lg-8'>
@@ -19,8 +21,10 @@ class Landing extends Component {
                             to = "/ContactUs"><button>Get Your Quote</button>
                     </Link>
                 </div>
-                
+              
 
+            </div>
+                <img className='divide-img'  src={divide}/>
             </div>
 
         );

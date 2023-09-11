@@ -1,16 +1,28 @@
 #homepage  #logo{
     display: none;
 }
-#landing{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    padding: 100px;
+.landing-bg > img, .contact-bg > img, .breath-bg > img{
+    width: 100%;
+}
+
+.landing-bg{
     background: linear-gradient(90deg, rgba(22, 55, 26, 0.67) 50.52%, rgba(50, 102, 55, 0.3149) 90.1%), url('../../Assets/Landing.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+@media only screen and (max-width: 769px){
+    .divide-img, .fade-img{
+        display: none;
+    }
+}
+#landing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    
    
 }
 .home-logo{
@@ -37,17 +49,14 @@
 /*Service Pitch*/
 #mobileService{
     display: none;
-    background:  linear-gradient(90deg, rgba(22, 55, 26, 0.7) 55.49%, rgba(50, 102, 55, 0.7) 100%), url('../../Assets/serviceBar.png');
     background-position: center;
     background-size: cover;
-    color: white;
-    height: 100vh;
-    padding-left: 30px;
-    padding-right: 30px;
+    height: auto;
+    padding: 30px 30px;
 }
 #service-pitch{
     display: flex;
-    background:  linear-gradient(90deg, rgba(22, 55, 26, 0.7) 55.49%, rgba(50, 102, 55, 0.7) 100%), url('../../Assets/serviceBar.png');
+
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -55,7 +64,7 @@
     height: 100vh;
     background-attachment: fixed;
     padding: 30px;
-    color: white;
+    
 }
 
 .image-box{
@@ -152,10 +161,14 @@
     position: relative;
     display: flex;
     height: 100vh;
+    
+}
+.breath-bg{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.47), rgba(0, 0, 0, 0.47)), url('../../Assets/BackgroundGrass.png');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 #breathtaking > .inner-container{
     display: flex;
@@ -272,7 +285,6 @@
 #reviews{
     overflow-x: hidden;
     height: 100vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/review.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -282,7 +294,7 @@
   }
   /*Review Card*/
   #reviewCard{
-    background-color: white;
+    background-color: #F4F4F4;
     padding: 50px;
     border-radius: 22px;
     width: 800px;
@@ -314,7 +326,9 @@
 @media only screen and (max-width: 778px) {
     #reviews{
         height: auto;
+        padding-bottom: 30px;
         padding-top: 100px;
+
     }
     #reviewCard{
         width: 500px;
@@ -339,7 +353,7 @@
         width: 400px;
         height: 90%;
     }
-    #reviews, #breathtaking, #landing, #contact, #mobileService{
+    #reviews, #breathtaking, #landing, #contact, #mobileService, .breath-bg, .landing-bg, .contact-bg{
         background-attachment: scroll, local;
     }
     #reviews{
@@ -358,15 +372,17 @@
 }
 /*Contact*/
 #contact{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/Contact.jpg');
-    background-position: center;
-    background-size: cover;
+   
     padding-top: 100px;
-
     justify-content: center;
     background-attachment: fixed;
 }
+.contact-bg{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/Contact.jpg');
+    background-position: center;
+    background-size: cover;
 
+}
 
 #ff-title-root{
     font-family: 'Galano' !important;
@@ -400,18 +416,7 @@
 input{
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
 }
-@media only screen and (max-width: 508px){
-    #ff-id-1492036453{
-        width: auto;
-        display: block;
-    }
-    #ff-id-1184986610{
-        width: auto;
-        display: block;
-        margin-left: 0%;
-    }
-    
-}
+
 #ff-id-1213382725 > label, #ff-id-880864503 > label{
     font-family: 'Galano';
     font-size: 24px;
@@ -429,4 +434,33 @@ input{
 }
 #ff-desc-root > p{
     color: white !important;
+}
+@media only screen and (max-width: 769px){
+    #ff-id-1213382725 > label, #ff-id-880864503 > label{
+        font-size: 14px;
+    }
+    #ff-id-844590796 > div.ff-widget-control.ff-check-table > div{
+        display: flex;
+        align-content: center;
+        margin-top: 12px;
+    }
+    #entry\.893789967\.I\ grant\ you\ permission\ to\ contact\ me\ with\ the\ information\ stated\.{
+        margin: auto;
+        margin-right: 10px;
+    }
+    .ff-form .ff-secfields .ff-item label{
+        font-size: 12px
+    }
+    .ff-title{
+        font-size: 20px !important;
+    }
+    #ff-id-1492036453{
+        width: auto;
+        display: block;
+    }
+    #ff-id-1184986610{
+        width: auto;
+        display: block;
+        margin-left: 0%;
+    }
 }

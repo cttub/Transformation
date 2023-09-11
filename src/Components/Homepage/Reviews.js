@@ -23,7 +23,7 @@ class Reviews extends Component {
     return (
       <div id='reviews'>
         <div>
-          <Fade up><h1 style={{ textAlign: "center" }} className='white-txt'>Don't Just Take Our Word</h1></Fade>
+          <Fade up><h1 style={{ textAlign: "center" }} >Don't Just Take Our Word</h1></Fade>
 
   
            <Flicking 

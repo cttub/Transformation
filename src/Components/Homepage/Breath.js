@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-
+import divide from '../../Assets/divider.png';
+import fade from '../../Assets/fade.png';
 class Breath extends Component {
   render() {
     return (
+        <div className='breath-bg'>
+            <img className='fade-img' src={fade}/>
                         <div id="breathtaking">
                             <div className="inner-container">
                             <div className="comparision col-lg-5 white-txt">
@@ -41,6 +44,9 @@ class Breath extends Component {
                             </div>
                             </div>
                         </div>
+                        <img className='divide-img'  style={{transform: "scaleX(-1)"}} src={divide}/>
+                        
+        </div>
     );
   }
 }
