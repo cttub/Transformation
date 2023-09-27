@@ -11,7 +11,7 @@ class Footer extends Component {
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
                                         }}
-                            to = "/"><h5 className='white-txt'>Transformative Lawn and Landscape LLC</h5>
+                            to = "/"><h5 className='white-txt'>Transformation Lawn and Landscape LLC</h5>
                     </Link>
                     
                     <h5 className='white-txt'>Springfield, MO</h5>

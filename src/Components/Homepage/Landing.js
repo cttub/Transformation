@@ -13,7 +13,7 @@ class Landing extends Component {
                 <div className='col-lg-8'>
                    
                     <Fade><h1 className='white-txt'>Maintain your Lawn, Transform your Landscape.</h1></Fade>
-                    <p className='white-txt'>Transformative Lawn & Landscape - your ultimate hub for proficient lawn maintenance and breathtaking landscape architecture.</p>
+                    <p className='white-txt'>Transformation Lawn & Landscape - your ultimate hub for proficient lawn maintenance and breathtaking landscape architecture.</p>
                     <Link className='link-btn'
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
