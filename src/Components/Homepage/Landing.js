@@ -11,9 +11,9 @@ class Landing extends Component {
             <div id='landing'>
              
                 <div className='col-lg-8'>
-                    <h2 className='white-txt'>Our Caring Team delivers</h2>
-                    <Fade><h1 className='white-txt'>Transformative Landscaping and Lawn Services</h1></Fade>
-                    <p className='white-txt'>Discover the captivating allure of a revitalized outdoor environment with Transformative - your ultimate hub for proficient lawn maintenance and breathtaking landscape architecture.</p>
+                   
+                    <Fade><h1 className='white-txt'>Maintain your Lawn, Transform your Landscape.</h1></Fade>
+                    <p className='white-txt'>Transformative Lawn & Landscape - your ultimate hub for proficient lawn maintenance and breathtaking landscape architecture.</p>
                     <Link className='link-btn'
                             onClick={() => {
                                         document.querySelector("html").scrollTo(0,0);
