@@ -372,7 +372,6 @@
 }
 /*Contact*/
 #contact{
-   
     padding-top: 100px;
     justify-content: center;
     background-attachment: fixed;
@@ -386,17 +385,18 @@
 
 #ff-title-root{
     font-family: 'Galano' !important;
-    color: white;
+    color: #16371A;
 }
 #ff-compose{
     width: 100%;
 }
 #Publish1FAIpQLScoGtyqstfrODC3btcswGqqCChwt0ivCXwpKpM_9o4PXHyOlQ{
-    background: none;
+    background: rgba(255, 255, 255, 0.90) !important;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
+    margin-bottom: 100px;
 }
 #ff-id-1492036453{
     width: 45%;
@@ -409,7 +409,7 @@
     margin-left: 5%;
 }
 .ff-form .ff-secfields .ff-item label{
-    color: white !important;
+    color: #16371A !important;
     font-weight: 450;
     font-size: 20px
 }
