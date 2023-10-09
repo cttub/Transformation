@@ -16,7 +16,7 @@ class ContactUs extends Component {
     render() {
         return (
             <div className='contact-bg'>
-                <img className='fade-img' src={fade}/>
+                
                 <div id='contact'>
                     
                     <div>

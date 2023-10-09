@@ -1,6 +1,4 @@
-#homepage  #logo{
-    display: none;
-}
+
 .landing-bg > img, .contact-bg > img, .breath-bg > img{
     width: 100%;
 }
@@ -380,6 +378,7 @@
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../Assets/Contact.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 
@@ -436,6 +435,9 @@ input{
     color: white !important;
 }
 @media only screen and (max-width: 769px){
+    #Publish1FAIpQLScoGtyqstfrODC3btcswGqqCChwt0ivCXwpKpM_9o4PXHyOlQ{
+        padding: 20px !important;
+    }
     #ff-id-1213382725 > label, #ff-id-880864503 > label{
         font-size: 14px;
     }

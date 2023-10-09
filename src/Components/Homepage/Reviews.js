@@ -30,7 +30,7 @@ class Reviews extends Component {
               circular={true}
               plugins={plugins}
               align="center"
-              defaultIndex = "2"
+              defaultIndex = "0"
             >
               <div className="panel">
                 <ReviewCard

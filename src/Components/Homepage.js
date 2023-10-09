@@ -14,7 +14,6 @@ class Homepage extends Component {
     render() { 
         return (
             <div id='homepage'>
-                <img className='home-logo' src={logo}/>
                 <Landing/>
                 <Service/>
                 <MobileService/>
