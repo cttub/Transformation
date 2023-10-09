@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.70b43649.css",
-    "main.js": "/static/js/main.b15b9863.js",
+    "main.css": "/static/css/main.54f36a59.css",
+    "main.js": "/static/js/main.404d6b1e.js",
     "static/js/787.3b8d738c.chunk.js": "/static/js/787.3b8d738c.chunk.js",
     "static/media/Contact.jpg": "/static/media/Contact.5fa25918f82f76a1d4c5.jpg",
-    "static/media/serviceBar.png": "/static/media/serviceBar.20772a1516e4793b26d3.png",
     "static/media/before.png": "/static/media/before.c28c0a0ecb646d258b72.png",
     "static/media/BackgroundGrass.png": "/static/media/BackgroundGrass.bcd8df87ea6a8f9738e6.png",
     "static/media/landscape.png": "/static/media/landscape.4bcc4ddbb8b90cef8769.png",
@@ -25,7 +24,6 @@
     "static/media/hardscapeOne.jpg": "/static/media/hardscapeOne.dd813d49d527d19fbb90.jpg",
     "static/media/side-second-after.jpg": "/static/media/side-second-after.92d37e0a8c4c75e22e18.jpg",
     "static/media/over-second-after.jpg": "/static/media/over-second-after.17869f6c0732ed974003.jpg",
-    "static/media/review.jpg": "/static/media/review.23aaea8f2dfaac28d121.jpg",
     "static/media/outdoorOne.jpg": "/static/media/outdoorOne.975753c6956435809c4f.jpg",
     "static/media/Gallery.jpg": "/static/media/Gallery.5d05ed837ea4ddc88b39.jpg",
     "static/media/hardscapeTwo.jpg": "/static/media/hardscapeTwo.3e6a0cedafab5a250a8f.jpg",
@@ -53,17 +51,18 @@
     "static/media/hover-first-before.jpg": "/static/media/hover-first-before.9e88bc1301ffaabdc33a.jpg",
     "static/media/galanogrotesque-bold.otf": "/static/media/galanogrotesque-bold.17b6df6d5b01dac6ac26.otf",
     "static/media/Becky.jpg": "/static/media/Becky.c0101eaab3a8cbfdfe5f.jpg",
+    "static/media/fade.png": "/static/media/fade.8a899abee578b6f86cf8.png",
     "static/media/Martha.jpg": "/static/media/Martha.e155f29264f553ff2722.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "static/media/facebook.svg": "/static/media/facebook.909b3e65374dfc721bd7a97cfa2cb671.svg",
     "static/media/uparrow.svg": "/static/media/uparrow.b1c8f0db1875ae886541bc3c26e57027.svg",
-    "main.70b43649.css.map": "/static/css/main.70b43649.css.map",
-    "main.b15b9863.js.map": "/static/js/main.b15b9863.js.map",
+    "main.54f36a59.css.map": "/static/css/main.54f36a59.css.map",
+    "main.404d6b1e.js.map": "/static/js/main.404d6b1e.js.map",
     "787.3b8d738c.chunk.js.map": "/static/js/787.3b8d738c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70b43649.css",
-    "static/js/main.b15b9863.js"
+    "static/css/main.54f36a59.css",
+    "static/js/main.404d6b1e.js"
   ]
 }
